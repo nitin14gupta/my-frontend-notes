@@ -1,0 +1,305 @@
+/* selector */
+h1{
+    color: red;  
+} 
+    /* color is the property */
+    /* red is the value */
+
+
+/* we can put css in 3 ways  */
+
+/* internal style
+<h1 style="color: red"> Apna College </h1> 
+*/
+
+/* using Style Tag
+<style>
+h1{ 
+    color: red;
+}
+</style>
+*/
+
+/* Color Property
+Used to set the color of foreground */
+
+h2{color: green;}
+h3{color: rgb(2, 0, 128);}
+h4{color: rgb(128, 0, 0);}
+h5{color: rgb(79, 0, 128);}
+h6{color: rgb(240, 233, 11);}
+
+/* Background Color Property
+Used to set the color of background */
+
+h2{background-color: rgb(167, 17, 190);}
+h3{background-color: rgb(220, 24, 24);}
+h4{background-color: rgb(75, 221, 30);}
+h5{background-color: rgb(128, 0, 0);}
+h6{background-color: rgb(48, 3, 3);}
+
+/* color are in RGB andf RGBA */
+/* rgb(red, green, blue) */
+/* rgba(red, green, blue, alpha) - transparency */
+/* Color Systems
+Hex (Hexadecimal) */
+form{color: #ff0000;}
+input{color: #00ff00;}
+
+
+                 SELECTORS IN CSS
+
+1. UNIVERSAL SELECTOR
+*{}
+2. ELEMENT SELECTOR
+h1{}
+
+3.ID SELECTOR
+#id {}
+
+4. CLASS SELECTOR
+.class {}
+
+/* Text Properties
+text-align
+*/
+h1{text-align: right;
+    width: 20px;
+}
+h2{text-align: center;
+   width: 50px;
+}
+h3{text-align: left;
+    width: 100px
+}
+h4{text-align: center;
+    width: 500px
+}
+h5{text-align: right;
+    width: 900px
+}
+h6{text-align: center;
+    width: 1500px
+}
+
+/* Text Properties
+text-decoration
+*/
+
+h1{text-decoration: dashed;
+}
+h2{text-decoration: dotted;
+}
+h3{text-decoration: double;
+}
+h4{text-decoration: line-through;
+}
+h5{text-decoration: overline;
+}
+h6{text-decoration: solid;
+}
+
+/* Text Properties
+font-weight
+*/
+font-weight : normal / bold / bolder / lighter
+font-weight : 100-900
+
+/* Text Properties
+font-family
+*/
+font-family : arial
+font-family : arial, roboto
+
+
+/* Units in CSS
+pixels (px)
+Absolute 
+*/
+96px = 1 inch
+font-size: 2px;
+
+
+/* Text Properties
+line-height
+*/
+line-height : 2px
+line-height
+line-height : 3
+line-height : normal
+
+
+/* Text Properties
+text-transform
+*/
+text-tranform : uppercase / lowercase / capitalize / none
+
+
+
+
+
+
+
+
+
+
+
+
+                          BOX MODEL IN CSS
+
+it includes
+/* Height
+Width
+Border
+Padding
+Margin  
+*/
+
+Height
+By default, it sets the content area height of the element
+div {
+    height: 50px;
+    }
+
+
+WIDTH
+By default, it sets the content area width of the element
+div {
+    width: 50px;
+    }
+
+
+BORDER
+Used to set an element's border
+border: thickness style color
+div{border-width : 2px;
+border-style : solid / dotted / dashed;
+border-color : black;
+}
+div{
+    border : 25px solid black;
+}
+
+div{
+    border-radius: 10px;
+    border-radius: 50%;
+    border-bottom: #00ff00;
+}
+
+PADDING
+
+div{padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+div{
+    padding: 50px;
+}
+div{
+    padding: 2px 4px 6px 8px;
+}
+
+MARGIN
+
+div{margin-right: 2px;
+    margin-left: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+div{margin: 50px;
+}
+
+div{margin: 5px 10px 15px 20px;
+}
+
+
+
+
+                      Display Property
+display: inline / block / inline-block / none
+
+inline - Takes only the space required by the element. (no margin/ padding) /*block ko inline bana do but up down se margin aur padding hat jaayega */
+block - Takes full space available in width. /*inline ko block bana do but down aur up margin aur padding lagega*/
+inline-block - Similar to inline but we can set margin & padding. /*agar inline karne ke baad margin aur padding nahi chahiye toh ye use karo*/
+none - To remove element from document flow  /*document se direct gayab ho jaayega */
+inline - It takes only the width required by its content and adds no extra space. The height is also set to zero, so it does not take
+
+for visibility: hidden; then space is reserved but the content is not visible
+
+
+ALPHA CHANNEL
+Opacity from (0 to 1)
+rgba, from "a" opacity can be change
+
+
+                       UNITS IN CSS
+(which is relative at every aspect)
+
+(1.)Percentage (%)
+It is often used to define a size as relative to an element's parent object.
+
+width : 33% ;
+margin-left : 50% ;
+
+(2.) Em
+(3.) Rem
+
+Others
+vh: relative to 1% viewport height
+vw : relative to 1% viewport width
+
+
+
+                           "Position"
+The position CSS property sets how an element is positioned in a document.
+position : static / relative / absolute / fixed
+
+(1.)Static - Default value of position property. (The top, right, bottom, left, and z-index properties have no effect)
+The element is always displayed at its normal position. No special adjustments are made for the top and left properties.
+
+(2.)relative - element is relative to itself. (The top, right, bottom, left, and z-index will work)
+
+(3.)absolute - positioned relative to its closest positioned ancestor. (removed from the flow)
+
+(4.)fixed - positioned relative to browser. (removed from flow)
+(mostly used for navbar or footer)
+
+(5.)sticky - positioned based on user's scroll position
+
+                    z-index
+It decides the stack level of elements
+Overlapping elements with a larger z-index cover those with a smaller one
+(upar niche)
+z-index : auto (0)
+z-index : 1 / 2 / ...
+z-index : -1 / -2 / ...
+
+
+                 Background Image
+        Used to set an image as background
+
+
+
+background-image : url("image.jpeg");
+for fitting we use background size
+background-size : cover / contain / auto .
+
+
+                    MOST HARD AND LOVED TOPIC
+                           "FLEXBOX"
+
+    
+
+
+
+
+
+
+
+
+
+
+

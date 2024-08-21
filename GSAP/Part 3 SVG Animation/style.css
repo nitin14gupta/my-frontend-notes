@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: New Amsterdam;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.string{
+    width: 1900px;
+    height: 200px;
+    background-color: black;
+}

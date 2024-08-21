@@ -1,0 +1,15 @@
+*{color: white;}
+.backcolor{background-color: #0f1111;
+           height: 60px;
+        }
+
+#amazon{
+    color: orangered;
+    border-left: 50px;
+    font-size: 25px;
+}
+
+a{margin-right: 200px;
+}
+
+#button{background-color: #f08804;}

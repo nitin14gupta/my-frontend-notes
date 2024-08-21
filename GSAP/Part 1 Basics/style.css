@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: #222;
+}
+
+.main1{
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+}
+
+.main2{
+    height: 100px;
+    width: 100px;
+    background-color: royalblue;
+}
+
+h1{
+    color: White;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: transparent;
+}
+
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: royalblue;
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.box3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(206, 65, 225);
+}
